@@ -295,7 +295,8 @@ BEGIN
 
 		PRINT 'Error Message : ' + Error_Message();
 		PRINT 'Error Number : ' + CAST(Error_Number() AS VARCHAR);
-		PRINT 'Error Line : ' + CAST(Error_LINE() AS VARCHAR);
+		PRINT 'Error Line : ' + CAST(Error_Line() AS VARCHAR);
+		PRINT 'Error Line : ' + CAST(Error_State() AS VARCHAR);
 		SET @end_time = GETDATE();
 		PRINT 'Loading Duration Of Error : ' + '0.' + CAST(DATEDIFF(MILLISECOND,@start_time,@end_time) AS VARCHAR) + ' ms';
 		
