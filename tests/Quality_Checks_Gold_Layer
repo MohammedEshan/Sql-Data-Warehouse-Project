@@ -1,7 +1,7 @@
--- ==================================================================================================
--- Quality Checks
--- ==================================================================================================
 /*
+-- ==================================================================================================
+-- DATA QUALITY CHECKS FOR GOLD LAYER TABLES 
+-- ==================================================================================================
 -- Data Quality Checks for Dimensional Model Integrity:
 -- 1. Checking for duplicate customer records after joining CRM and ERP customer/location tables using customer ID.
 --    Ensures that joins do not introduce unintended record multiplication.
