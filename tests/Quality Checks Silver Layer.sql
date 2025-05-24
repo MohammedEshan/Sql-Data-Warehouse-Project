@@ -1,6 +1,6 @@
 /*
 ====================================================================================================
-DATA QUALITY & VALIDATION CHECKS FOR SILVER LAYER TABLES (BY TABLE CATEGORY)
+DATA QUALITY & VALIDATION CHECKS FOR SILVER LAYER TABLES 
 ----------------------------------------------------------------------------------------------------
 Purpose:
 To ensure that all Silver layer tables contain clean, standardized, and reliable data following 
